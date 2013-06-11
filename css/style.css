@@ -10,6 +10,11 @@
   display:inline-block;
 }
 
+.minus {
+  margin-left:-0.38em;
+
+}
+
 h3 .icon-stack {
   font-size:0.7em;
   vertical-align:-25%;
@@ -94,6 +99,10 @@ a:hover {
   font-size:2em;
   line-height:1.05em;
   letter-spacing:-1px;
+}
+
+.name a {
+  color:#cceae3;
 }
 
 #navigation a {
@@ -191,6 +200,12 @@ a:hover {
 }
 
 /* Pages */
+
+#about {
+  position:relative;
+  text-align:justify;
+  top:-40px;
+}
 
 .page-head {
   font-family: 'Montserrat', Arial, sans-serif;
